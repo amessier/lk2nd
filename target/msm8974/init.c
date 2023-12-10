@@ -244,7 +244,6 @@ static void target_mmc_sdhci_init()
 		config.hs400_support = 1;
 	} else {
 		config.max_clk_rate = MMC_CLK_200MHZ;
-		config.hs400_support = 0;
 	}
 	config.sdhc_base = mmc_sdhci_base[config.slot - 1];
 	config.pwrctl_base = mmc_sdc_base[config.slot - 1];
