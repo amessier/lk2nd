@@ -21,7 +21,7 @@
 		      <305 3 0x10000>, <305 4 0x10000>, <305 5 0x10000>;
 
 	htc-m8 {
-		model = "HTC One M8";
+		model = "HTC One (M8)";
 		compatible = "htc,m8", "qcom,msm8974", "lk2nd,device";
 		lk2nd,match-panel;
 
